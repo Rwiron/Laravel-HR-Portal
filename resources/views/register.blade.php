@@ -121,7 +121,7 @@ function duplicateEmail(element) {
     dataType: "json",
     success: function (res){
       if (res.exists){
-        $('.duplicate_message').html("That email is already Taken!.Please choose another");
+        $('.duplicate_message').html("That email is already Taken!.Please choose another!!");
       }else{
         $('.duplicate_message').html("");
       }

@@ -55,7 +55,7 @@
         <a href="{{url ('/')}}">Sign In</a>
       </p>
       <p class="mb-0">
-        <a href="{{url ('register')}}" class="text-center">Register a new membership</a>
+        <a href="{{url ('register')}}" class="text-center">Register a new memberships</a>
       </p>
     </div>
     <!-- /.login-card-body -->
